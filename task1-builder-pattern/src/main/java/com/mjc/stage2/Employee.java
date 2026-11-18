@@ -76,32 +76,32 @@ public class Employee {
         private String email;
         private String carNumber;
 
-        public EmployeeBuilder name(String name) {
+        public EmployeeBuilder setName(String name) {
             this.name = name;
             return this;
         }
 
-        public EmployeeBuilder lastName(String lastName) {
+        public EmployeeBuilder setLastName(String lastName) {
             this.lastName = lastName;
             return this;
         }
 
-        public EmployeeBuilder position(String position) {
+        public EmployeeBuilder setPosition(String position) {
             this.position = position;
             return this;
         }
 
-        public EmployeeBuilder phone(String phone) {
+        public EmployeeBuilder setPhone(String phone) {
             this.phone = phone;
             return this;
         }
 
-        public EmployeeBuilder email(String email) {
+        public EmployeeBuilder setEmail(String email) {
             this.email = email;
             return this;
         }
 
-        public EmployeeBuilder carNumber(String carNumber) {
+        public EmployeeBuilder setCarNumber(String carNumber) {
             this.carNumber = carNumber;
             return this;
         }
